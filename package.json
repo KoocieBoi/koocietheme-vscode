@@ -1,0 +1,22 @@
+{
+    "name": "koocietheme",
+    "displayName": "KoocieTheme",
+    "description": "test theme",
+    "version": "0.0.1",
+    "publisher": "none",
+    "engines": {
+        "vscode": "^1.23.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "KoocieTheme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/KoocieTheme-color-theme.json"
+            }
+        ]
+    }
+}
